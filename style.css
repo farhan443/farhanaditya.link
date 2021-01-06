@@ -1,0 +1,29 @@
+html {
+    background: skyblue;
+}
+
+.link {
+    /*display: block;*/
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /*
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 0px;
+    */
+
+}
+
+#link1 {
+    margin-top: 200px;
+}
+
+#link_com {
+    background-color: steelblue;
+}
+
+#link_id {
+    background-color: gray;
+}
