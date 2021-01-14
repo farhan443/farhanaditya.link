@@ -12,7 +12,7 @@ body {
 }
 
 #name {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-top: 10px;
     margin-left: auto;
@@ -78,6 +78,7 @@ footer {
 }
 
 #copyright_notice {
+    font-family: monospace;
     margin-top: 25px;
     text-transform: uppercase;
 }
