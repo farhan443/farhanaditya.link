@@ -78,9 +78,9 @@ p#copyright_notice {
 
 @media screen and (max-width: 760px) {
     #profile {
-        width: 380px;
+        width: 400px;
     }
     p#copyright_notice {
-        width: 380px;
+        width: 400px;
     }
 }
