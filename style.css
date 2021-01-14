@@ -19,20 +19,28 @@ body {
     margin-top: 10px;
 }
 
-main#link button, a {
+main#link a {
     display: block;
     margin: auto;
     margin-top: 30px;
+    padding-top: 20px;
     width: 400px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     font-weight: normal;
     font-size: 18px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
 
-main#link button:hover {
+main#link a:hover {
     background-color: white;
     cursor: pointer;
+}
+
+main#link a:active {
+    background-color: gray;
 }
 
 #instagram {
@@ -52,7 +60,7 @@ main#link button:hover {
 }
 
 #blog_en {
-    background-color: #54595F
+    background-color: #829191
 }
 
 footer {
