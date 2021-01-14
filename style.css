@@ -1,29 +1,66 @@
-html {
-    background: skyblue;
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: skyblue;
+    margin-top: 50px;
 }
 
-.link {
-    /*display: block;*/
-    font-size: 30px;
-    color: white;
+#profile_picture {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+#username {
     text-align: center;
     margin-top: 10px;
-    /*
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-bottom: 0px;
-    */
-
 }
 
-#link1 {
-    margin-top: 200px;
+main#link button, a {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 18px;
 }
 
-#link_com {
-    background-color: steelblue;
+main#link button:hover {
+    background-color: white;
+    cursor: pointer;
 }
 
-#link_id {
-    background-color: gray;
+#instagram {
+    background-color: #CD486B;
+}
+
+#whatsapp {
+    background-color: #23A455 ;
+}
+
+#telegram {
+    background-color: #0088cc;
+}
+
+#blog_id {
+    background-color: #54595F
+}
+
+#blog_en {
+    background-color: #54595F
+}
+
+footer {
+    margin-top: 30px;
+}
+
+p#copyright_notice {
+    text-align: center;
+    font-family: monospace;
+    text-transform: uppercase;
 }
