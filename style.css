@@ -48,15 +48,22 @@ main#link a {
     }
 }
 
+/*  Button Transition */
+
+main#link a {
+    transition: background-color 0.4s;
+}
+
 main#link a:hover {
     background-color: white;
     cursor: pointer;
-    transition: 0.4s;
 }
 
 main#link a:active {
     background-color: gray;
 }
+
+/* Default Button Color */
 
 #instagram {
     background-color: #CD486B;
@@ -81,6 +88,8 @@ main#link a:active {
 footer {
     text-align: center;
 }
+
+/* Copyright Notice Typography */
 
 #copyright_notice {
     font-family: monospace;
